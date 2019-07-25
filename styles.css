@@ -1,0 +1,37 @@
+.title{
+    color: #3b3b3b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.thermometer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temp-number{
+    display: flex;
+    flex-direction: column;
+}
+
+.temp-number span{
+    font-size: 30px;
+}
+
+.max-temp{
+   color: #ff6261;
+}
+
+.current-temp{
+    color: #8fff83;
+}
+
+.min-temp{
+    color: #5272ff;
+}
+
+#thermometer{
+    margin-left: 330px;
+}
